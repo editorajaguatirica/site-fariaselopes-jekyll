@@ -1,0 +1,26 @@
+#topbar
+telefone: +55 21 98888-7450
+email: fariaselopes@gmail.com
+horario: Seg-Sex 10:00h-17:00h
+link_whatsapp: https://web.whatsapp.com/send?phone=5521972875609&text=Tenho%20uma%20consulta%20para%20fazer:%20O%20caso%20é%20o%20seguinte...
+instagram: 
+twitter: 
+linkedin: 
+facebook: 
+pinterest:
+
+
+#menu
+navigation:
+- item: Início
+  url: index.html
+- item: sobre
+  url: about
+- item: Especialidades
+  url: 
+- item: Casos
+  url: 
+- item: Blog
+  url:
+
+
