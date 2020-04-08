@@ -23,4 +23,12 @@ navigation:
 - item: Blog
   url:
 
+#slide1
+slides:
+  - titulo_1: asdfasdf 
+  - titulo_2: asdaddf
+  - titulo_3: asdfadf
+  - titulo_1: xxxxxx
+  - titulo_2: xxxxxx
+  - titulo_3: xxxxxx
 
