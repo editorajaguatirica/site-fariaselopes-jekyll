@@ -26,7 +26,7 @@
             <div class="attorna-mobile-header-container attorna-container clearfix">
                 <div class="attorna-logo  attorna-item-pdlr">
                     <div class=attorna-logo-inner>
-                        <a class href=/index.html><img src=/upload/logo.png alt width=400 height=71 title=logo></a>
+                        <a class href=/index.html><img src={{site.data.homepage.logo}} alt width=400 height=71 title=logo></a>
                     </div>
                 </div>
                 <div class=attorna-mobile-menu-right>
@@ -48,13 +48,11 @@
                     <div class=attorna-mobile-menu><a class="attorna-mm-menu-button attorna-mobile-menu-button attorna-mobile-button-hamburger-with-border" href=#attorna-mobile-menu><i class="fa fa-bars" ></i></a>
                         <div class="attorna-mm-menu-wrap attorna-navigation-font" id=attorna-mobile-menu data-slide=right>
                             <ul id=menu-main-navigation class=m-menu>
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href=index.html aria-current=page>Home</a>
-                                    <ul class=sub-menu>
-                                        <li class="menu-item"><a href=index.html aria-current=page>Homepage 1</a></li>
-    
-                                    </ul>
+                                {% for item in site.data.homepage.navigation %}
+                                <li class="menu-item menu-item-home {% if item.url == page.url %} current-menu-item {% endif %} menu-item-has-children"><a href={{item.url}} aria-current=page>{{item.menu}}{{page.url}}{{item.url}}</a>
+                                {% endfor %}
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href=#>Pages</a>
+                                <!-- <li class="menu-item menu-item-has-children"><a href=#>{{ages}}</a>
                                     <ul class=sub-menu>
                                         <li class="menu-item"><a href=about-us.html>About Us</a></li>
                                         <li class="menu-item"><a href=about-us-2.html>About Us 2</a></li>
@@ -143,33 +141,30 @@
                                         <li class="menu-item"><a href=standard-post-type.html>Single Posts</a></li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-  {% include topbar.html %}
             <header class="attorna-header-wrap attorna-header-style-plain  attorna-style-menu-right attorna-sticky-navigation attorna-style-fixed" data-navigation-offset=75px>
                 <div class=attorna-header-background></div>
                 <div class="attorna-header-container  attorna-container">
                     <div class="attorna-header-container-inner clearfix">
                         <div class="attorna-logo  attorna-item-pdlr">
                             <div class=attorna-logo-inner>
-                                <a class href=index.html><img src=/upload/logo.png alt width=400 height=71 title=logo></a>
+                                <a class href=index.html><img src={{site.data.homepage.logo}} alt width=400 height=71 title=logo></a>
                             </div>
                         </div>
                         <div class="attorna-navigation attorna-item-pdlr clearfix ">
                             <div class=attorna-main-menu id=attorna-main-menu>
                                 <ul id=menu-main-navigation-1 class=sf-menu>
-                                    <li class="menu-item menu-item-home current-menu-item menu-item-has-children attorna-normal-menu"><a href=index.html class=sf-with-ul-pre>Home</a>
-                                        <ul class=sub-menu>
-                                            <li class="menu-item" data-size=60><a href=index.html>Homepage 1</a></li>
-                                            
-                                        </ul>
+                                    {% for item in site.data.homepage.navigation %}
+                                    <li class="menu-item menu-item-home {% if item.url == page.url %} current-menu-item {% endif %} menu-item-has-children attorna-normal-menu"><a href={{item.url}} class=sf-with-ul-pre>{{item.menu}}</a>
+                                    {% endfor %}
                                     </li>
-                                    <li class="menu-item menu-item-has-children attorna-normal-menu"><a href=# class=sf-with-ul-pre>Pages</a>
+                                    <!-- <li class="menu-item menu-item-has-children attorna-normal-menu"><a href=# class=sf-with-ul-pre>Pages</a>
                                         <ul class=sub-menu>
                                             <li class="menu-item"><a href=about-us.html>About Us</a></li>
                                             <li class="menu-item"><a href=about-us-2.html>About Us 2</a></li>
@@ -257,7 +252,7 @@
                                             <li class="menu-item" data-size=60><a href=standard-post-type.html class=sf-with-ul-pre>Single Posts</a></li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class=attorna-navigation-slide-bar id=attorna-navigation-slide-bar></div>
                             </div>
                             <div class="attorna-main-menu-right-wrap clearfix ">

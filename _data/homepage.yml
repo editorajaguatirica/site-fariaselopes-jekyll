@@ -1,35 +1,45 @@
 #topbar
 telefone: +55 21 98888-7450
 email: fariaselopes@gmail.com
-horario: Seg-Sex 10:00h-17:00h
+horario: Seg - Sex 10:00-17:00
 link_whatsapp: https://web.whatsapp.com/send?phone=5521972875609&text=Tenho%20uma%20consulta%20para%20fazer:%20O%20caso%20é%20o%20seguinte...
+endereco_1: Av. Rio Branco, 185 sala 1012 
+endereco_2: Centro Rio de Janeiro RJ
+endereco_3: CEP 20.040-007
 instagram: 
 twitter: 
 linkedin: 
 facebook: 
 pinterest:
 
+#logo
+logo: /upload/logo_fl.png
 
 #menu
 navigation:
-- item: Início
-  url: index.html
-- item: sobre
+- menu: Início
+  url: /index.html
+- menu: Sobre
   url: about
-- item: Especialidades
+- menu: Especialidades
   url: 
-- item: Casos
+- menu: Casos
   url: 
-- item: Blog
+- menu: Blog
   url:
 
-slide_1:
-  - titulo_1: asdfasdf 
-  - titulo_2: asdaddf
-  - titulo_1: xxxxxx
+#slides
+slides:
+  - titulo_1: Advocacia
+  - subtitulo_1: dsfasfasdfasdfasd
+  - texto_1: sdfasdfsfasdflkwjeqr;kljqwr;elkjqw;rlkjqw;lkjas;dlfkjas;ldfkja;sldfjas;lfkd;slkjda 
+  - img_1: /upload/slider-1.jpg
+  
+  - titulo_2: Contratos
+  - subtitulo_2: asfdasdf
+  - texto_2: sfkljaf;dlkjasflk;asjdf;alksjdf;alksjdf;alkjwpoiuweoiqpuqpeowruiqwouriqwoeuriqweorui
+  - img_2: /upload/slider-2.jpg
 
-slide_2: 
-  - titulo_1: xxxxxx
-  - titulo_2: xxxxxx
-  - titulo_3: xxxxxx
+#footer
+
 
