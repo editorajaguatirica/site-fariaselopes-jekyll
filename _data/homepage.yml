@@ -40,6 +40,16 @@ slides:
   - texto_2: sfkljaf;dlkjasflk;asjdf;alksjdf;alksjdf;alkjwpoiuweoiqpuqpeowruiqwouriqwoeuriqweorui
   - img_2: /upload/slider-2.jpg
 
-#footer
+#especialidades
+especialidades:
+  - ramo: Direito do Consumidor
+  - texto: We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.
+  - icon: 
+
+  - ramo:
+  - texto:
+  
+
+  #footer
 
 
