@@ -18,15 +18,15 @@ logo: /upload/logo_fl.png
 #menu
 navigation:
 - menu: Início
-  url: /index.html
-- menu: Sobre
-  url: about
+  url: 
 - menu: Especialidades
-  url: 
-- menu: Casos
-  url: 
+  url: "#especialidades"
+- menu: Estudo de casos
+  url: "#casos"
 - menu: Blog
-  url:
+  url: /blog.html
+- menu: Contato 
+  url: "#contato"
 
 #slides
 slides:
@@ -66,4 +66,4 @@ texto_ramo_5: Todos estão sujeitos às relações com o Estado, empresários ou
 
 ramo_6: Direito Empresarial
 icon_6: /upload/hp-icon-6.png
-texto_ramo_6: O direito empresarial é um mix de vários ramos do Direito que atingem o cotidiano de uma empresa. Questões trabalhistas, administrativas, comerciais, entre outras, interferem no dia a dia do empresário. Tenha à sua disposição um corpo de advogados pronto para responderem às suas dúvidas e demandas. 
+texto_ramo_6: O direito empresarial é um mix de vários ramos do Direito que atingem o cotidiano de uma empresa. Questões trabalhistas, administrativas, comerciais, entre outras, interferem no dia a dia do empresário. 

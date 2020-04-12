@@ -20,13 +20,13 @@
 
 
 </head>
-<body class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js attorna-body attorna-body-front attorna-full  attorna-with-sticky-navigation  attorna-blockquote-style-1 gdlr-core-link-to-lightbox" data-home-url=index.html>
+<body class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js attorna-body attorna-body-front attorna-full  attorna-with-sticky-navigation  attorna-blockquote-style-1 gdlr-core-link-to-lightbox" data-home-url={{site.baseurl}}>
     <div class=attorna-mobile-header-wrap>
         <div class="attorna-mobile-header attorna-header-background attorna-style-slide attorna-sticky-mobile-navigation " id=attorna-mobile-header>
             <div class="attorna-mobile-header-container attorna-container clearfix">
                 <div class="attorna-logo  attorna-item-pdlr">
                     <div class=attorna-logo-inner>
-                        <a class href=/index.html><img src={{ site.baseurl }}\upload\logo_fl.png alt width=400 height=71 title=logo></a>
+                        <a class href={{site.baseurl}}><img src={{ site.baseurl }}\upload\logo_fl.png alt width=400 height=71 title=logo></a>
                     </div>
                 </div>
                 <div class=attorna-mobile-menu-right>
@@ -49,7 +49,7 @@
                         <div class="attorna-mm-menu-wrap attorna-navigation-font" id=attorna-mobile-menu data-slide=right>
                             <ul id=menu-main-navigation class=m-menu>
                                 {% for item in site.data.homepage.navigation %}
-                                <li class="menu-item menu-item-home {% if item.url == page.url %} current-menu-item {% endif %} menu-item-has-children"><a href={{item.url}} aria-current=page>{{item.menu}}</a>
+                                <li class="menu-item menu-item-home {% if item.url == page.url %} current-menu-item {% endif %} menu-item-has-children"><a href="{{item.url}}" aria-current=page>{{item.menu}}</a>
                                 {% endfor %}
                                 </li>
                                 <!-- <li class="menu-item menu-item-has-children"><a href=#>{{ages}}</a>
