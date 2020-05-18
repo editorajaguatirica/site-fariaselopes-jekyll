@@ -67,3 +67,9 @@ texto_ramo_5: Todos estão sujeitos às relações com o Estado, empresários ou
 ramo_6: Direito Empresarial
 icon_6: /upload/hp-icon-6.png
 texto_ramo_6: O direito empresarial é um mix de vários ramos do Direito que atingem o cotidiano de uma empresa. Questões trabalhistas, administrativas, comerciais, entre outras, interferem no dia a dia do empresário. 
+
+cases: 
+  - img: upload/Family1-600x600.jpg
+  - url: /_pages/garantia-consumidor.md
+  - ramo: Direito do Consumidor
+  - titulo: Garantia de equipamentos
